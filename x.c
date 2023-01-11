@@ -717,6 +717,8 @@ brelease(XEvent *e)
 		return;
 	if (btn == Button1)
 		mousesel(e, 1);
+	if (btn == Button3)
+		selpaste(NULL);
 }
 
 void
