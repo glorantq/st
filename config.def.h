@@ -5,7 +5,17 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Anonymice Nerd Font:pixelsize=12:antialias=true:autohint=true";
+static char *font = 
+	"Anonymice Nerd Font:pixelsize=12:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"Inconsolata:pixelsize=12:antialias=true:autohint=true",
+	"Noto Color Emoji:style=Regular:pixelsize=12:antialias=true:autohint=true",
+	"Noto Sans CJK JP:pixelsize=12:antialias=true:autohint=true", 
+	"Noto Sans CJK KR:pixelsize=12:antialias=true:autohint=true", 
+	"Noto Sans CJK SC:pixelsize=12:antialias=true:autohint=true", 
+	"Noto Sans CJK HK:pixelsize=12:antialias=true:autohint=true", 
+};
 static int borderpx = 2;
 
 /*
